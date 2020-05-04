@@ -6,4 +6,18 @@
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
+  transition: width 1s, height 1s, background-color 1s;
 }
+.timeline p>small {
+    font-weight: bold;
+    font-size: 13px;
+}
+.description-experience {
+    font-style: italic;
+}
+.tags {
+    background-color: rgb(247, 244, 244);
+}
+/* .six > section > p:first-child {
+    background-color: white;
+} */
