@@ -822,9 +822,19 @@
   .color.midnightblue:before {
     background-color: midnightblue;
   }
-  .color.chartreuse:before {
-    background-color: chartreuse;
+  .color.spitalny:before {
+    background-color: rgb(189, 30, 189);
   }
+  .color.place:before {
+    background-color: rgb(218, 116, 57);
+  }
+  .color.club:before {
+    background-color: rgb(16, 140, 145);
+  }
+  .color.manhattan:before {
+    background-color: midnightblue;
+  }
+ 
   
   /* Audio button */
   button.audio {

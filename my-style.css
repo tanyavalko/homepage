@@ -2,12 +2,6 @@
     border-radius: 50%;
     width: 130px;
 }
-.avatar-style:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-  transition: width 1s, height 1s, background-color 1s;
-}
 .timeline p > small {
     font-weight: bold;
     font-size: 13px;
@@ -20,5 +14,8 @@
 }
 .six > section:first-of-type > .tags {
     background-color: rgb(255, 255, 255);
+}
+.details-info {
+    background-color: rgb(247, 244, 244);
 }
 
