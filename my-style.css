@@ -8,14 +8,17 @@
   transform: scale(1.2);
   transition: width 1s, height 1s, background-color 1s;
 }
-.timeline p>small {
+.timeline p > small {
     font-weight: bold;
     font-size: 13px;
 }
 .description-experience {
     font-style: italic;
 }
-.tags {
+.six > section > .tags {
     background-color: rgb(247, 244, 244);
+}
+.six > section:first-of-type > .tags {
+    background-color: rgb(255, 255, 255);
 }
 

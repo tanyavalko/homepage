@@ -4,9 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Résumé</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css">
+  <link rel="stylesheet" href="base.css">
   <link rel="stylesheet" href="my-style.css">
 </head>
 
@@ -15,7 +13,7 @@
     <article>
       <div class="page" style="border-color: midnightblue;">
         <div class="stackable grid">
-          <div class="row row-style">
+          <div class="row">
             <div class="three wide center aligned column">
               <div class="avatar-wrapper">
                 <object class="avatar avatar-style" data="/img/president-donald-trump.jpg" role="img"
@@ -48,14 +46,22 @@
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com/realDonaldTrump" rel="author" class="mail">
-                        <img class="twitter-brands icon" src="/img/twitter-brands.svg" alt="twitter-brands">
-                        <span>realDonaldTrump</span>
+                      <a href="https://twitter.com/realDonaldTrump" rel="author" class="twitter">
+                      <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path
+                          d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                        </path>
+                      </svg>
+                      <span>realDonaldTrump</span>
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.instagram.com/realDonaldTrump" rel="author" class="mail">
-                        <img class="instagram-brands icon" src="/img/instagram-brands.svg" alt="instagram-brands">
+                      <a href="https://www.instagram.com/realDonaldTrump" rel="author" class="instagram">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                          <path 
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                          </path>
+                        </svg>
                         <span>realDonaldTrump</span>
                       </a>
                     </li>
@@ -108,14 +114,17 @@
                     <li class="details">
                       <input type="checkbox" id="service-center-databases-lead">
                       <label for="service-center-databases-lead" class="summary">
-                        <strong class="description-experience">Started Trump University with Michael Sexton and Jonathan Spitalny</strong>
+                        <strong class="description-experience">Started Trump University with Michael Sexton and Jonathan
+                          Spitalny</strong>
                       </label>
                       <div>
                         <ul>
-                          <li>no grades, certificates and other bureaucracy, but program offered courses in real estate, asset management entrepreneurship,
+                          <li>no grades, certificates and other bureaucracy, but program offered courses in real estate,
+                            asset management entrepreneurship,
                             and wealth creation</li>
                           <li>98% students gave positive reviews while studying, however some of these
-                            ungrateful gringos filed lawsuits against Trump University after the course. I had to pay $25
+                            ungrateful gringos filed lawsuits against Trump University after the course. I had to pay
+                            $25
                             million to settle that...</li>
                         </ul>
                       </div>
@@ -144,12 +153,14 @@
                     <li class="details">
                       <input type="checkbox" id="service-center-databases-lead">
                       <label for="service-center-databases-lead" class="summary">
-                        <strong class="description-experience">Began a multi-building development along the Hudson River, which was
+                        <strong class="description-experience">Began a multi-building development along the Hudson
+                          River, which was
                           named Trump Place</strong>
                       </label>
                       <div>
                         <ul>
-                          <li>Me and the other investors sold our shares for $1.8 billion and that was then the biggest residential sale in
+                          <li>Me and the other investors sold our shares for $1.8 billion and that was then the biggest
+                            residential sale in
                             the history of New York City</li>
                         </ul>
                       </div>
@@ -197,13 +208,16 @@
                     <li class="details">
                       <input type="checkbox" id="service-center-databases-lead">
                       <label for="service-center-databases-lead" class="summary">
-                        <strong class="description-experience">I bought the Mar-a-Lago estate in Palm Beach and turned it into a
+                        <strong class="description-experience">I bought the Mar-a-Lago estate in Palm Beach and turned
+                          it into a
                           private club</strong>
                       </label>
                       <div>
                         <ul>
-                          <li>You can join if you pay $200K initiation fee (and there is another annual fee for members, it is very expensive to be
-                            rich). That year I also opened a casino called Trump Castle. My wife Ivana became a manager, because
+                          <li>You can join if you pay $200K initiation fee (and there is another annual fee for members,
+                            it is very expensive to be
+                            rich). That year I also opened a casino called Trump Castle. My wife Ivana became a manager,
+                            because
                             she is another Trump!</li>
                         </ul>
                       </div>
@@ -311,7 +325,7 @@
             <div class="six wide column">
               <section>
                 <h3>Languages</h3>
-                <p class="tags small" style="background-color: white;"> <span class="language" lang="en">&#x1f1fa;&#x1f1f8; ENGLISH</span> <a
+                <p class="tags small"> <span class="language" lang="en">&#x1f1fa;&#x1f1f8; ENGLISH</span> <a
                     href="/ru-ru" hreflang="ru" rel="alternate" class="language" lang="ru">&#x1f1f7;&#x1f1fa;
                     <span>РУССКИЙ</span></a> </p>
               </section>
@@ -333,73 +347,73 @@
                     href="https://www.youtube.com/watch?v=RDrfE9I8_hs" rel="external">CHINA</a> QUARTER POUNDER DIET
                   COKE TARIFFS BIBLE ARTOF DEAL PATRIOTS BEAUTIFUL MODELS GOLD REAL ESTATE WAR PROTESTERS CONSTRUCTION
                   RUSSIANS BANKS SPORTS WOMEN MEXICO RED HAT KOREANS GOLF EVERYBODY <a
-                    href="https://www.youtube.com/watch?v=0f9ysmciWUk" rel="external">[1]</a><a
-                    href="https://www.youtube.com/watch?v=TTdmKaXAfAs" rel="external">[2]</a></p>
+                    href="https://www.youtube.com/watch?v=0f9ysmciWUk" rel="external"><sup>[1]</sup></a><a
+                    href="https://www.youtube.com/watch?v=TTdmKaXAfAs" rel="external"><sup>[2]</sup></a></p>
               </section>
               <section>
                 <h3>Dislikes&#x1f61e;</h3>
-                <ul class="dislike-styles">
+                <ul class="tags small">
                   <li>
-                    <p class="tags small">DOGS</p>
+                    <p>DOGS</p>
                   </li>
                   <li>
-                    <p class="tags small">CNN</p>
+                    <p>CNN</p>
                   </li>
                   <li>
-                    <p class="tags small">MEDIA</p>
+                    <p>MEDIA</p>
                   </li>
                   <li>
-                    <p class="tags small">GERMANS</p>
+                    <p>GERMANS</p>
                   </li>
                   <li>
-                    <p class="tags small">MEXICANS</p>
+                    <p>MEXICANS</p>
                   </li>
                   <li>
-                    <p class="tags small">IMMIGRANTS</p>
+                    <p>IMMIGRANTS</p>
                   </li>
                   <li>
-                    <p class="tags small">SHITHOLE COUNTRIES</p>
+                    <p>SHITHOLE COUNTRIES</p>
                   </li>
                   <li>
-                    <p class="tags small">UNATTRACTIVE WOMEN</p>
+                    <p>UNATTRACTIVE WOMEN</p>
                   </li>
                   <li>
-                    <p class="tags small">BLACKS SUSHI</p>
+                    <p>BLACKS SUSHI</p>
                   </li>
                   <li>
-                    <p class="tags small">HOT-DOGS</p>
+                    <p>HOT-DOGS</p>
                   </li>
                   <li>
-                    <p class="tags small">ALCOHOL</p>
+                    <p>ALCOHOL</p>
                   </li>
                   <li>
-                    <p class="tags small">FRUIT</p>
+                    <p>FRUIT</p>
                   </li>
                   <li>
-                    <p class="tags small">CHRISTMAS</p>
+                    <p>CHRISTMAS</p>
                   </li>
                   <li>
-                    <p class="tags small">PARTIES</p>
+                    <p>PARTIES</p>
                   </li>
                   <li>
-                    <p class="tags small">LIBERALS</p>
+                    <p>LIBERALS</p>
                   </li>
                 </ul>
               </section>
               <section>
                 <h3>Wants&#x1f97a;</h3>
-                <ul>
+                <ul class="tags small">
                   <li>
-                    <p class="tags small">BE HEALTHY</p>
+                    <p >BE HEALTHY</p>
                   </li>
                   <li>
-                    <p class="tags small">GROW A TREE</p>
+                    <p>GROW A TREE</p>
                   </li>
                   <li>
-                    <p class="tags small">BUILD TRUMP AIRPORT</p>
+                    <p>BUILD TRUMP AIRPORT</p>
                   </li>
                   <li>
-                    <p class="tags small">HAVE A TASTE DO A HARLEM SHAKE IN
+                    <p>HAVE A TASTE DO A HARLEM SHAKE IN
                       CONGRESS TO GOLF MORE OFTEN WIN ALL THE COURT SUITS</p>
                   </li>
                 </ul>
