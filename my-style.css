@@ -2,20 +2,24 @@
   border-radius: 50%;
   width: 130px;
 }
-.timeline p > small {
+
+.timeline p>small {
   font-weight: bold;
   font-size: 13px;
 }
+
 .description-experience {
   font-style: italic;
 }
-.six > section > .tags {
-  background-color: rgb(247, 244, 244);
-}
-.six > section:first-of-type > .tags {
-  background-color: rgb(255, 255, 255);
-}
-.details-info {
+
+.six>section>.tags {
   background-color: rgb(247, 244, 244);
 }
 
+.six>section:first-of-type>.tags {
+  background-color: rgb(255, 255, 255);
+}
+
+.details-info {
+  background-color: rgb(247, 244, 244);
+}
